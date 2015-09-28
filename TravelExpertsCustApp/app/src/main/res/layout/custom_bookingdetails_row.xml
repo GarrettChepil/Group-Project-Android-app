@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/detailslayout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/tvItineraryNo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:width="175dp"
+        android:layout_margin="5dp"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/tvDestination"
+        android:width="175dp"
+        android:layout_alignTop="@+id/tvItineraryNo"
+        android:layout_toRightOf="@+id/tvItineraryNo"
+        android:layout_toEndOf="@+id/tvItineraryNo"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/tvTripStart"
+        android:layout_below="@+id/tvItineraryNo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:width="175dp"
+        android:layout_margin="5dp"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/tvTripEnd"
+        android:width="175dp"
+        android:layout_alignTop="@+id/tvTripStart"
+        android:layout_toRightOf="@+id/tvTripStart"
+        android:layout_toEndOf="@+id/tvTripStart"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/tvDescription"
+        android:width="300dp"
+        android:layout_below="@+id/tvRegion"
+        android:layout_alignRight="@+id/tvClassId"
+        android:layout_alignEnd="@+id/tvClassId"
+        android:layout_alignLeft="@+id/tvRegion"
+        android:layout_alignStart="@+id/tvRegion"
+        android:layout_marginTop="5dp"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/tvClassId"
+        android:width="175dp"
+        android:layout_alignTop="@+id/tvRegion"
+        android:layout_toRightOf="@+id/tvTripStart"
+        android:layout_toEndOf="@+id/tvTripStart"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/tvRegion"
+        android:layout_below="@+id/tvTripStart"
+        android:layout_alignLeft="@+id/tvTripStart"
+        android:layout_alignStart="@+id/tvTripStart"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:width="175dp"
+        android:textColor="#ffffffff" />
+</RelativeLayout>

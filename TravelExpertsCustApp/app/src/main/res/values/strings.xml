@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TravelExpertsCustApp</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_customer_info">CustomerInfo</string>
+    <string name="bookinNo">Booking No: </string>
+    <string name="strDate">Date: </string>
+    <string name="strCount">Travel Count: </string>
+    <string name="strType">Trip Type: </string>
+    <string name="server">http://192.168.56.1:8080/TravelExpertsAndroid</string>
+    <string name="title_activity_booking_details">Booking Details</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="lblBookingDetails">Booking Details</string>
+    <string name="title_activity_slash">Travel Experts</string>
+    <string name="title_activity_edit_customer">Edit Customer</string>
+    <string name="bagprod">BAG Solutions Inc.</string>
+</resources>

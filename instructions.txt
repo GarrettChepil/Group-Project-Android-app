@@ -1,6 +1,6 @@
-the TravelExpertsAndroid directory is for the JSP server that will authenticate and send data to the android app
+the TravelExpertsJSPServer directory is for the JSP server that will authenticate and send data to the android app
 
-the TravelExpertsCustApp directory is the android studio app
+the TravelExpertsAndroid App directory is the android studio app
 
 
 To get this app to work, you may have to change the ip address in the app in the strings.xml
